@@ -9,7 +9,7 @@ html like attribute parser implemented with c++.
 
 Example input and output:
 
-> Input:
+- Input:
 10 10
 <a value = "GoodVal">
 <b value = "BadVal" size = "10">
@@ -32,7 +32,7 @@ a.c.d.e~strength
 d~sze
 a.c.d~size
 
-> Output:
+- Output:
 GoodVal
 Not Found!
 10
