@@ -8,9 +8,9 @@ html like attribute parser implemented with c++.
 - If the requested attribute or tag doesn't exist, or the sequence of nested tags is wrong, the querry prints "Not Found"
 
 Example input and output:
-(must read raw text!)
+(Must read raw text!)
 
--Input:
+> Input:
 10 10
 <a value = "GoodVal">
 <b value = "BadVal" size = "10">
@@ -33,7 +33,7 @@ a.c.d.e~strength
 d~sze
 a.c.d~size
 
-Output:
+> Output:
 GoodVal
 Not Found!
 10
