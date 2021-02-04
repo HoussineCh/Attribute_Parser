@@ -8,7 +8,7 @@ html like attribute parser implemented with c++.
 - If the requested attribute or tag doesn't exist, or the sequence of nested tags is wrong, the querry prints "Not Found"
 
 Example input and output:
-<blink>
+'<
 Input:
 10 10
 <a value = "GoodVal">
@@ -44,3 +44,4 @@ Not Found!
 Not Found!
 3
 </blink>
+>'
